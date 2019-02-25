@@ -5,11 +5,12 @@ namespace PHPUnitNotifier;
 use Joli\JoliNotif\Notification;
 use Joli\JoliNotif\NotifierFactory;
 use Joli\JoliNotif\Util\OsHelper;
-use PHPUnit_Framework_Test as Test;
-use PHPUnit_Framework_TestSuite as TestSuite;
-use PHPUnit_Framework_AssertionFailedError as AssertionFailedError;
+use PHPUnit\Framework\BaseTestListener;
+use PHPUnit\Framework\Test;
+use PHPUnit\Framework\TestSuite;
+use PHPUnit\Framework\AssertionFailedError;
 
-class NotifierListener extends \PHPUnit_Framework_BaseTestListener
+class NotifierListener extends BaseTestListener
 {
     private $notifier;
     private $errors = 0;

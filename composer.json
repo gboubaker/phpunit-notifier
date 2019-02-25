@@ -1,17 +1,17 @@
 {
-    "name": "mdarse/phpunit-notifier",
+    "name": "gboubaker/phpunit-notifier",
     "description": "Desktop notifications for PHPUnit",
     "keywords": ["notification", "test", "phpunit"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Mathieu Darse",
-            "email": "hello@mathieudarse.fr"
+            "name": "Aboubaker Ghrib",
+            "email": "gboubaker@yahoo.fr"
         }
     ],
     "require": {
-        "jolicode/jolinotif": "~1.0",
-        "phpunit/phpunit": "~4.0"
+        "jolicode/jolinotif": "~2.0",
+        "phpunit/phpunit": "~6.0"
     },
     "autoload": {
         "psr-4": {
